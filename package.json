@@ -5,7 +5,7 @@
   "author": "Prabeesh Prabhakar",
   "license": "MIT",
   "scripts": {
-    "start": "ts-node src/index.ts",
+    "start": "ts-node src/exec.ts",
     "test": "jest"
   },
   "devDependencies": {

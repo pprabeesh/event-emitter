@@ -31,7 +31,7 @@ describe("Event emitter", () => {
     expect(bar).not.toBeCalled();
   });
 
-  it("does not break on non-existing type", () => {
+  it("handles remove of non-existing type ", () => {
     off("bar", bar);
     trigger("foo");
     expect(foo).toBeCalledTimes(1);
